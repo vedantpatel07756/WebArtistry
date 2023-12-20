@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head{
+    margin-top: 50px;
+    }
+.head img{
+    margin-left: 50%;
+    width: 50px;
+}
+.review{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin:10%;
+    margin-top: 8%;
+}
+.box{
+    box-shadow: 10px 10px 20px  grey;
+    border-radius: 12px;
+}
+.box img:nth-child(1){
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.box img:nth-child(2){
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 40px;
+
+}
+.name{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 120px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.skill{
+    margin-left: 6px;
+    font-size:15px ;
+    font-weight: 600;
+}
+.box hr{
+    width: 60%;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+.detail{
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head{
+    margin-top: 50px;
+    }
+.head img{
+    margin-left: 50%;
+    width: 50px;
+}
+.review{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin:10%;
+    margin-top: 8%;
+}
+.box{
+    box-shadow: 10px 10px 20px  grey;
+    border-radius: 12px;
+}
+.box img:nth-child(1){
+    position: absolute;
+    width: 2%;
+    height: 4%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.box img:nth-child(2){
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 40px;
+
+}
+.name{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 120px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.skill{
+    margin-left: 6px;
+    font-size:15px ;
+    font-weight: 600;
+}
+.box hr{
+    width: 60%;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+.detail{
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+} */

@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(225, 220, 241 );
+}
+
+.main{
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 12px;
+   
+}
+.leftcontainer{
+    padding: 10%;
+    background-color:rgb(31, 31, 104) ;
+    padding-bottom: 50%;
+    border-radius: 12px 0px 0px 12px ;
+}
+
+.leftcontainer p:nth-child(1){
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.leftcontainer  p:nth-child(2){
+    font-size:2em ;
+    margin-top: 20%;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.leftcontainer p:nth-child(3){
+    color: gray;
+    margin-top: 10%;
+    font-weight: 600;
+}
+
+.rightcontainer{
+    background-color:rgb(245, 242, 251) ;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.rightcontainer p:nth-child(1){
+    color: black;
+    font-size: 2em;
+    margin: 10%;
+    font-weight: 600;
+}
+
+.rightcontainer .option{
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+    width: 80%;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.option{
+    cursor: pointer;
+}
+.rightcontainer .option span{
+    margin-left: 10%;
+    font-weight: 600;
+}
+
+.rightcontainer .option img{
+    width: 10%;
+    border-radius: 5px;
+}
+
+p{
+    margin-top: 5%;
+    margin-left: 10%;
+     font-weight:600 ;
+}
+
+span{
+    cursor: pointer;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(225, 220, 241 );
+}
+
+.main{
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 12px;
+   
+}
+.leftcontainer{
+    padding: 10%;
+    background-color:rgb(31, 31, 104) ;
+    padding-bottom: 50%;
+    border-radius: 12px 0px 0px 12px ;
+}
+
+.leftcontainer p:nth-child(1){
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.leftcontainer  p:nth-child(2){
+    font-size:2em ;
+    margin-top: 20%;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+.leftcontainer p:nth-child(3){
+    color: gray;
+    margin-top: 10%;
+    font-weight: 600;
+}
+
+.rightcontainer{
+    background-color:rgb(245, 242, 251) ;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.rightcontainer p:nth-child(1){
+    color: black;
+    font-size: 2em;
+    margin: 10%;
+    font-weight: 600;
+}
+
+.rightcontainer .option{
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2%;
+    width: 80%;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.option{
+    cursor: pointer;
+}
+.rightcontainer .option span{
+    margin-left: 10%;
+    font-weight: 600;
+}
+
+.rightcontainer .option img{
+    width: 10%;
+    border-radius: 5px;
+}
+
+p{
+    margin-top: 5%;
+    margin-left: 10%;
+     font-weight:600 ;
+}
+
+span{
+    cursor: pointer;
+    color: blue;
+} */
