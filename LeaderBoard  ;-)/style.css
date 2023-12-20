@@ -112,6 +112,7 @@ p{
 @media only screen and (max-width: 1228px) {
     .img{
         /* margin-left:1%; */
+        display:none;
         width: 40px;
         height: 40px;
         border-radius: 12px;
